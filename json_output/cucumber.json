@@ -1,0 +1,287 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validating BookHotelPage details with map Interfacescenario",
+        "description": "",
+        "id": "validating-bookhotelpage-with-map-interface;validating-bookhotelpage-details-with-map-interfacescenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4652068200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user2 is already in LoginPage",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.user2_is_already_in_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5059700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The title2 of the loginPage is Adactin Hotels",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.the_title2_of_the_loginPage_is_Adactin_Hotels()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187002100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user2 is entering the username and password",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.the_user2_is_entering_the_username_ang_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "adactin123",
+                  "adactin123"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1072203300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user2 is hitting the login button",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.the_user2_is_hitting_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15579700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user2 is navigated to HomePage",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.user2_is_navigated_to_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 993869300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user2 entering Location,Hotels,Room Type,NoOfRooms, CheckInDate, CheckOutDate,NoOfAdults,NoOfChildren details",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.user2_entering_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Location",
+                  "Hotel",
+                  "RoomType",
+                  "NoOfRooms",
+                  "CheckInDate",
+                  "CheckOutDate",
+                  "NoOfAdults",
+                  "NoOfChildren"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "London",
+                  "Hotel Hervey",
+                  "Standard",
+                  "3 - Three",
+                  "24/12/2019",
+                  "31/12/2019",
+                  "2 - Two",
+                  "2 - Two"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 707636700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user2 is hitting the search button",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.user2_is_hitting_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24340800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user2 is navigated to SelectHotelPage",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.the_user2_is_navigated_to_SelectHotelPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 586053400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user2 selected the hotel and clicked on continue button",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.user2_selected_the_hotel_and_clicked_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28378900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user2 is navigated to BookAHotelPage",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.user2_is_navigated_to_BookAHotelPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 927283600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user2 enters information for hotel Booking",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.user2_enters_information_for_hotel_Booking(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "Address",
+                  "CreditCardNo",
+                  "CCType",
+                  "ExpMonth",
+                  "ExpYear",
+                  "CVV"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Tarun",
+                  "Mithra",
+                  "9090 OliveWest Blvd",
+                  "1234567899876543",
+                  "VISA",
+                  "September",
+                  "2022",
+                  "323"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "Varun",
+                  "Mithra",
+                  "9092 OliveWest Blvd",
+                  "1234567089876543",
+                  "VISA",
+                  "May",
+                  "2022",
+                  "329"
+                ],
+                "line": 21
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52389400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clicked on Book Now",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.clicked_on_Book_Now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5588300700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user2 got navigated to ConfirmationPage",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.user2_got_navigated_to_ConfirmationPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 356200100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user2 clicked on the Logout",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.user2_clicked_on_the_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 813890600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user2 closed the browser",
+            "match": {
+              "location": "BookHotelPageMapStepDefinition.user2_closed_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating BookHotelPage with Map Interface",
+    "description": "",
+    "id": "validating-bookhotelpage-with-map-interface",
+    "keyword": "Feature",
+    "uri": "C:/Users/gay3v/eclipse-workspaceNew1/adactinBDDframework/src/main/java/features/BookHotelPageMap.feature"
+  }
+]

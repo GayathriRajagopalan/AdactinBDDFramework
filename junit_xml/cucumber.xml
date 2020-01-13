@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.010257">
+<testcase classname="Validating BookHotelPage with Map Interface" name="Validating BookHotelPage details with map Interfacescenario" time="16.010257">
+<system-out><![CDATA[Given user2 is already in LoginPage.........................................passed
+When The title2 of the loginPage is Adactin Hotels..........................passed
+Then the user2 is entering the username and password........................passed
+And the user2 is hitting the login button...................................passed
+Then user2 is navigated to HomePage.........................................passed
+And user2 entering Location,Hotels,Room Type,NoOfRooms, CheckInDate, CheckOutDate,NoOfAdults,NoOfChildren details.passed
+And user2 is hitting the search button......................................passed
+Then the user2 is navigated to SelectHotelPage..............................passed
+And user2 selected the hotel and clicked on continue button.................passed
+Then user2 is navigated to BookAHotelPage...................................passed
+And user2 enters information for hotel Booking..............................passed
+And clicked on Book Now.....................................................passed
+Then user2 got navigated to ConfirmationPage................................passed
+Then user2 clicked on the Logout............................................passed
+Then user2 closed the browser...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
